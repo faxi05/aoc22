@@ -32,7 +32,6 @@
         } else {
 
             for (i = move; i >= 1; i--) {
-                writeOutput(" i=#i#");
                 stacks[to] = listAppend( stacks[to], listGetAt( stacks[from], (listlen(stacks[from])-(i-1)) ) )
             }
             for (i = 1; i <= move; i++) {
